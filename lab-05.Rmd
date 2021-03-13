@@ -3,11 +3,11 @@ title: "Lab 05 - Nobel laureates"
 output: github_document
   
 ---
-Team Name:
+Team Name:  DS6
 
 Team Members - Name and Student ID
 
-1.
+1.TAIF SULTAN ALSHEHRI-2201003200
 
 2.
 
@@ -46,7 +46,8 @@ nobel <- read_csv("data/nobel.csv")
 ```{r}
 dim(nobel)
 ```
-
+935 OBS
+26 VARIABLES
 Each row represents information about a nobel prize winner.
 
 2.  Create a new data frame called `nobel_living` that filters for
@@ -63,7 +64,8 @@ mutate(
 country_us = if_else(country == "USA", "USA", "Other")
 )
 ```
-
+935 OBS
+27 VARIABLES
 
 Confirm that once you have filtered for these characteristics you are left with a data frame with 'nrow(nobel_living)' observations, once again using inline code.
 
